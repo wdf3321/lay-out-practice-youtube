@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/1.style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Roboto", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">
+      <div>
+        <img src="./icon/icons8-home.svg" />
+        <p>首頁</p>
+      </div>
+      <div>
+        <img src="./icon/icons8-compass-30.png" />
+        <p>探索</p>
+      </div>
+      <div>
+        <img src="./icon/icons8-youtube.svg" />
+        <p>shorts</p>
+      </div>
+      <div>
+        <img src="./icon/icons8-youtube.svg" />
+        <p>訂閱內容</p>
+      </div>
+      <hr />
+      <div>
+        <img src="https://img.icons8.com/ios-glyphs/30/000000/library.png" />
+        <p>媒體庫</p>
+      </div>
+      <div>
+        <img src="./icon/icons8-movie-30.png" />
+        <p>觀看紀錄</p>
+      </div>
+      <hr />
+      <div id="sidebarlogin">
+        登入帳戶即可對影片表示喜歡、發布留言及訂閱頻道。
+      </div>
+      <button id="login">
+        <img
+          src="https://img.icons8.com/ios-glyphs/30/000000/login-rounded-right--v1.png"
+        />
+        <p>登入</p>
+      </button>
+      <br /><br /><br />
+      <hr />
+      <div id="tansuo">探索</div>
+      <div>
+        <img src="./icon/icons8-podcasts-24.png" />
+        <p>音樂</p>
+      </div>
+      <div>
+        <img src="./icon/first-place-24.png" />
+        <p>體育</p>
+      </div>
+      <div>
+        <img src="./icon/icons8-game-controller-24.png" />
+        <p>遊戲</p>
+      </div>
+      <div>
+        <img src="./icon/icons8-movie-30.png" />
+        <p>電影</p>
+      </div>
+      <div>
+        <img src="./icon/icons8-news-24.png" />
+        <p>新聞</p>
+      </div>
+      <div>
+        <img src="./icon/icons8-live-photos-24.png" />
+        <p>直播</p>
+      </div>
+      <div>
+        <img src="./icon/icons8-360-view-24.png" />
+        <p>360度影片</p>
+      </div>
+      <hr />
+      <div>
+        <img src="./icon/icons8-plus-24.png" />
+        <p>瀏覽頻道</p>
+      </div>
+      <hr />
+      <div id="tansuo">更多Youtube功能</div>
+      <div>
+        <img
+          src="https://img.icons8.com/material-outlined/24/000000/youtube-play--v1.png"
+        />
+        <p>Youtube Premium</p>
+      </div>
+      <div>
+        <img
+          src="https://img.icons8.com/material-outlined/24/000000/add-song--v2.png"
+        />
+        <p>Youtube Music</p>
+      </div>
+      <div>
+        <img
+          src="https://img.icons8.com/ios-filled/30/000000/youtube-play.png"
+        />
+        <p>Youtube Kids</p>
+      </div>
+      <div>
+        <img
+          src="https://img.icons8.com/ios-filled/30/000000/youtube-play.png"
+        />
+        <p>Youtube TV</p>
+      </div>
+      <hr />
+      <div>
+        <img
+          src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/30/000000/external-setting-essentials-pack-tanah-basah-glyph-tanah-basah.png"
+        />
+        <p>設定</p>
+      </div>
+      <div>
+        <img src="https://img.icons8.com/ios/30/000000/flag--v1.png" />
+        <p>檢舉紀錄</p>
+      </div>
+      <div>
+        <img src="https://img.icons8.com/ios-glyphs/30/000000/help.png" />
+        <p>說明</p>
+      </div>
+      <div>
+        <img src="https://img.icons8.com/ios-glyphs/30/000000/help.png" />
+        <p>設定</p>
+      </div>
+      <hr />
+      <div class="last">
+        <a href="">簡介</a> <a href="">媒體</a> <a href="">版權</a>
+        <a href="">與我們聯絡</a>
+      </div>
+      <div class="last">
+        <a href="">創作者</a> <a href="">廣告</a> <a href="">開發人員</a><br />
+      </div>
+      <div class="last">
+        <a href="">條款</a> <a href="">隱私權</a><a href=""> 政策與安全性</a>
+      </div>
+      <div class="last">
+        <a href="">YouTube運作方式</a> <a href="">測試新功能</a>
+      </div>
+    </div>
+    <!--  --------------------------------------------------------- -->
+    <div class="container">
+      <div class="search">
+        <img src="./icons8-menu-30.png" id="menu" />
+        <img src="./icon/icons8-youtube-100.png" id="youtube" />
+        <input type="text" id="text" />
+        <img src="./icon/icons8-search.svg" id="search" />
+        <img src="./icon/icons8-microphone-30.png" id="microphone" />
+
+        <button id="login">
+          登入<img
+            src="https://img.icons8.com/ios-glyphs/30/000000/login-rounded-right--v1.png"
+          />
+        </button>
+        <img src="./icon/icons8-more-30.png" id="more" />
+      </div>
+      <div class="item">
+        <span>全部</span>
+        <span>音樂</span>
+        <span>直播中</span>
+        <span>遊戲</span>
+        <span>觀光</span>
+        <span>動畫</span>
+        <span>烹飪</span>
+        <span>最新上傳</span>
+      </div>
+      <div class="content">
+        <div class="col">
+          <img class="thumb" src="./icon/2.jpg" />
+          <img class="icon" src="./icon/2icon.jpg" />
+          <div class="meta">
+            <h2>我怎麼看賴鴻麟開掛事件？</h2>
+            <p>
+              Toyz 實況精華<br />
+              觀看次數:16.5萬次‧3天前
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <img class="thumb" src="./icon/3in.jpg" />
+          <img class="icon" src="./icon/3..jpg" />
+          <div class="meta">
+            <h2>
+              太貼了阿賢！對手的超快秒數讓阿爆驚嘆！感謝NEXON把沙漠換成一般地圖？│跑跑卡丁車【爆哥Neal】
+            </h2>
+            <p>
+              爆哥Neal
+              <br />
+              觀看次數:31萬次‧1周前
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <img class="thumb" src="./icon/4....jpg" />
+          <img class="icon" src="./icon/4..jpg" />
+          <div class="meta">
+            <h2>
+              澳洲喜劇藝人表演時被美國女子鬧場，藝人用地獄哏回嗆，讓全場笑翻
+            </h2>
+            <p>B.C&Lowy <br />觀看次數:53.7萬次‧一周前</p>
+          </div>
+        </div>
+        <div class="col">
+          <img class="thumb" src="./icon/5.jpg" />
+          <img class="icon" src="./icon/5icon.jpg" />
+          <div class="meta">
+            <h2>最鋒利的刀！黃鰭鮪魚切割技能, 豪華生魚片/丸萬鮮魚行/World's</h2>
+            <p>Cate Food Travel 凱特食旅 <br />觀看次數:2068萬次‧3個月前</p>
+          </div>
+        </div>
+        <div class="col">
+          <img class="thumb" src="./icon/6.jpg" />
+          <img class="icon" src="./icon/6icon.jpg" />
+          <div class="meta">
+            <h2>
+              【DinTer】妥妥的！直播中突然確診妥瑞氏症？！Call
+              Out特爸特媽驚爆乩童身份！特哥童年...
+            </h2>
+            <p>Dinter<br />觀看次數:54.7萬次‧一個月前</p>
+          </div>
+        </div>
+        <div class="col">
+          <img class="thumb" src="./icon/77.jpg" />
+          <img class="icon" src="./icon/7icon.jpg" />
+          <div class="meta">
+            <h2>【4K HDR 】冰島｜異世界旅行，或許我真的來到了世界的盡頭</h2>
+            <p>Links TV<br />觀看次數:69.7萬次‧一個月前</p>
+          </div>
+        </div>
+        <div class="col">
+          <img class="thumb" src="./icon/8.jpg" />
+          <img class="icon" src="./icon/8icon.jpg" />
+          <div class="meta">
+            <h2>
+              【台灣男花3年圓夢錄取蘋果 直擊矽谷總部上班好豪華！】｜@傑瑞說笑
+              Jerry Says Cheese
+            </h2>
+            <p>台灣達人秀<br />觀看次數:29.8萬次‧一周前</p>
+          </div>
+        </div>
+        <div class="col">
+          <img class="thumb" src="./icon/9.jpg" />
+          <img class="icon" src="./icon/9.icon.jpg" />
+          <div class="meta">
+            <h2>
+              告五人 Accusefive [ 給你一瓶魔法藥水 You Are My Magic ] Official
+              Live Video
+            </h2>
+            <p>相信音樂BinMusic<br />觀看次數:7.7萬次‧一周前</p>
+          </div>
+        </div>
+        <div class="col">
+          <img class="thumb" src="./icon/10.jpg" />
+          <img class="icon" src="./icon/10icon.jpg" />
+          <div class="meta">
+            <h2>
+              【Apple Watch Ultra】雖然沒什麼鳥用，但我依然推薦購買的原因！
+            </h2>
+            <p>
+              大耳朵TV
+              <br />
+              觀看次數:31萬次‧1周前
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <img class="thumb" src="./icon/11.jpg" />
+          <img class="icon" src="./icon/11icon.jpg" />
+          <div class="meta">
+            <h2>【祝初登山】初心者がひとりで富士山登ってみた</h2>
+            <p>Itsuka Japan<br />觀看次數:67.5萬次‧一個月前</p>
+          </div>
+        </div>
+        <div class="col">
+          <img class="thumb" src="./icon/12.jpg" />
+          <img class="icon" src="./icon/12icon.jpg" />
+          <div class="meta">
+            <h2>
+              【統神】實況鬼才晨晨又唱又跳又演又會說故事！讓旁邊的把拔看起來
+            </h2>
+            <p>統晨大戲院<br />觀看次數:1.5萬次‧3天前</p>
+          </div>
+        </div>
+        <div class="col">
+          <img class="thumb" src="./icon/13.jpg" />
+          <img class="icon" src="./icon/13icon.jpg" />
+          <div class="meta">
+            <h2>Tokyo Walk 24/7 - JAPAN 4K</h2>
+            <p>JAPAN 4K <br />觀看次數:65萬次‧一周前</p>
+          </div>
+        </div>
+        <hr />
+        <div class="shorts">
+          <h1><img src="./icon/icons8-youtube-100.png" />Shorts</h1>
+          <div class="short">
+            <img src="./icon/short1.webp" />
+            <h1>【PuPu】我家猫已经emo一整天了，我该怎么劝劝他，挺急的</h1>
+            <p>觀看次數‧69萬次</p>
+          </div>
+          <div class="short">
+            <img
+              src="https://i.ytimg.com/vi/pbBc_JW0jLA/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLBRi7fkJPqo5rpZKFaay_IZMro3zw"
+            />
+            <h1>Use the precious wood to make a string of beads. #Shorts</h1>
+            <p>觀看次數‧69萬次</p>
+          </div>
+          <div class="short">
+            <img
+              src="https://i.ytimg.com/vi/rZILJ2Rv2nA/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLDicW-GS6ZVbSMwMymQWo6roChrKw"
+            />
+            <h1>連行されるイッヌ容疑者 #Shorts #動物 #犬</h1>
+            <p>觀看次數‧69萬次</p>
+          </div>
+          <div class="short">
+            <img
+              src="https://i.ytimg.com/vi/qp_jjToan_k/hq720_2.jpg?sqp=-oaymwEdCJYDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLBOKpwlTVz_zPGHtsBYfJfdF-leHw"
+            />
+            <h1>
+              Street fashion style | Check the link in Description #shorts
+            </h1>
+            <p>觀看次數‧69萬次</p>
+          </div>
+          <div class="short">
+            <img
+              src="https://i.ytimg.com/vi/aVUUsu9DgUg/hq720_2.jpg?sqp=-oaymwEdCI4CEOADSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLCJK90dlDfqQOtvBrLzTJeEkS2juA"
+            />
+            <h1>Kittens Climb Their Mom as They Couldn’t Wait for Food</h1>
+            <p>觀看次數‧69萬次</p>
+          </div>
+          <div class="short">
+            <img
+              src="https://i.ytimg.com/vi/KqgD1BF921E/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLCdk7XYuFbeJQGYCGExDFqa_4oJ0A"
+            />
+            <h1>This trend with ITZY (wait for chaeryeong 💅)</h1>
+            <p>觀看次數‧69萬次</p>
+          </div>
+          <div class="short">
+            <img
+              src="https://i.ytimg.com/vi/i-NJBuMMcnM/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLCI2Jas1xtnT26FlxddlPT2vJ0TbQ"
+            />
+            <h1>Bottle kick회축 챌린지</h1>
+            <p>觀看次數‧69萬次</p>
+          </div>
+          <div class="short">
+            <img
+              src="https://i.ytimg.com/vi/5mkq8W56018/hq720_2.jpg?sqp=-oaymwEdCJYDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLCX_5MNFHhjH7rcaa-lM3evcu2YPw"
+            />
+            <h1>It’s 106 #anime #naruto #jiraiya #kakashi #tsunade</h1>
+            <p>觀看次數‧69萬次</p>
+          </div>
+        </div>
+        <hr />
+        <div class="live">
+          <h1>新聞-直播中</h1>
+          <div class="col">
+            <img class="thumb" src="./icon/live1.jpg" />
+            <img class="icon" src="./icon/live1icon.jpg" />
+            <div class="meta">
+              <h2>【大新聞大爆卦】現正直播中 20221013</h2>
+              <p>
+                大新聞大爆卦
+                <br />
+                8,636 人正在觀看
+              </p>
+              <p class="liveicon">
+                <img src="./icon/icons8-browse-podcasts-30.png" />直播
+              </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <img class="thumb" src="./icon/live2.jpg" />
+            <img class="icon" src="./icon/live2icon.jpg" />
+            <div class="meta">
+              <h2>
+                【中天直播#LIVE】台積電第3季毛利率飆60%
+                每股賺10.83元創新高｜半導體市況?美晶片禁令? 台積電法說會見真章!
+                20221013
+              </h2>
+              <p>
+                中天電視
+                <br />
+                1,681 人正在觀看
+              </p>
+              <p class="liveicon">
+                <img src="./icon/icons8-browse-podcasts-30.png" />直播
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <img class="thumb" src="./icon/live3.jpg" />
+            <img class="icon" src="./icon/live3icon.jpg" />
+            <div class="meta">
+              <h2>
+                台視新聞台HD 24 小時線上直播｜TAIWAN TTV NEWS HD
+                (Live)｜台湾のTTV ニュースHD (生放送)｜대만 뉴스 라이브
+              </h2>
+              <p>
+                台視新聞 TTV NEWS
+                <br />
+                6,969 人正在觀看
+              </p>
+              <p class="liveicon">
+                <img src="./icon/icons8-browse-podcasts-30.png" />直播
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <img class="thumb" src="./icon/live4.jpg" />
+            <img class="icon" src="./icon/live4icon.jpg" />
+            <div class="meta">
+              <h2>
+                LIVE 三立+ │SET+ Live NEWS│SET+ LIVE ニュースオンライン放送│대만
+                채널SET+뉴스 24시간 생방송
+              </h2>
+              <p>
+                三立LIVE新聞
+                <br />
+                6,969 人正在觀看
+              </p>
+              <p class="liveicon">
+                <img src="./icon/icons8-browse-podcasts-30.png" />直播
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
